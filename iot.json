@@ -1,7 +1,5 @@
 [
-  {
-	"name": "IoT Requirement Configurator",
-	"children": [
+
 		{
 			"name": "Use Case",
 			"children": [
@@ -502,5 +500,5 @@
 			]
 		}
 	]
-   }
+  
 ]	
