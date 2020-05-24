@@ -1,5 +1,4 @@
-[
-
+ [
 		{
 			"name": "Use Case",
 			"children": [
@@ -59,7 +58,7 @@
 			"children": [
 				{
 					"name": "Hardware",
-					"hardware": [
+					"children": [
 						{
 							"name": "Intel Architecture",
 							"children": [
@@ -500,5 +499,4 @@
 			]
 		}
 	]
-  
-]	
+
