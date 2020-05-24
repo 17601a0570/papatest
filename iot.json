@@ -59,8 +59,8 @@
 			"name": "Device Architecture",
 			"children": [
 				{
-					"hardware": "Hardware",
-					"children": [
+					"name": "Hardware",
+					"hardware": [
 						{
 							"name": "Intel Architecture",
 							"children": [
