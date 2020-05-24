@@ -1,4 +1,5 @@
-{
+[
+  {
 	"name": "IoT Requirement Configurator",
 	"children": [
 		{
@@ -501,4 +502,5 @@
 			]
 		}
 	]
-}
+   }
+]	
