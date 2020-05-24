@@ -1,0 +1,504 @@
+{
+	"name": "IoT Requirement Configurator",
+	"children": [
+		{
+			"name": "Use Case",
+			"children": [
+				{
+					"name": "pre-defined use cases",
+					"children": [
+						{
+							"name": "Factory Quality Monitoring"
+						},
+						{
+							"name": "Fleet Management"
+						},
+						{
+							"name": "Yard Management"
+						},
+						{
+							"name": "Cold Chain Tracking"
+						},
+						{
+							"name": "Smart Pantry"
+						},
+						{
+							"name": "Smart Shelf"
+						},
+						{
+							"name": "Grab and Go"
+						},
+						{
+							"name": "Spire-X"
+						},
+						{
+							"name": "Smart Agriculture"
+						},
+						{
+							"name": "Smart facility"
+						},
+						{
+							"name": "Energy Management"
+						},
+						{
+							"name": "Becon equipment Tracking"
+						}
+					]
+				},
+				{
+					"name": "New Use case",
+					"children": [
+						{
+							"name": "Use case description"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Device Architecture",
+			"children": [
+				{
+					"name": "Hardware",
+					"children": [
+						{
+							"name": "Intel Architecture",
+							"children": [
+								{
+									"name": "UTX3115: Intel® Atom™"
+								},
+								{
+									"name": "HPE Industrial PC-i5 8GB"
+								},
+								{
+									"name": "ReliaGATE 20-25 ,Intel Atom"
+								}
+							]
+						},
+						{
+							"name": "ARM Architecture",
+							"children": [
+								{
+									"name": "Raspberry pi Zero:"
+								},
+								{
+									"name": "Raspberry pi 3 b+:"
+								},
+								{
+									"name": "Raspberry pi 4 :"
+								},
+								{
+									"name": "Jetson Tegra TK2:"
+								},
+								{
+									"name": "Jetson Nano:"
+								},
+								{
+									"name": "FATBOX G3 - 3G :"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Operating system",
+					"children": [
+						{
+							"name": "Ubuntu"
+						},
+						{
+							"name": "Raspian"
+						},
+						{
+							"name": "debian"
+						},
+						{
+							"name": "Linux"
+						},
+						{
+							"name": "Windows"
+						}
+					]
+				},
+				{
+					"name": "No Operating System"
+				},
+				{
+					"name": "Power Supply",
+					"children": [
+						{
+							"name": "Battery powered"
+						},
+						{
+							"name": "Power Adaptor"
+						}
+					]
+				},
+				{
+					"name": "Enclosure",
+					"children": [
+						{
+							"name": "Compliance",
+							"children": [
+								{
+									"name": "IP65"
+								},
+								{
+									"name": "IP67"
+								}
+							]
+						},
+						{
+							"name": "Plastic Molded"
+						},
+						{
+							"name": "Off the shelf"
+						},
+						{
+							"name": "Metal "
+						},
+						{
+							"name": "Custom Enclosure"
+						}
+					]
+				},
+				{
+					"name": "Communication",
+					"children": [
+						{
+							"name": "WiFi"
+						},
+						{
+							"name": "BlueTooth4.0"
+						},
+						{
+							"name": "Bluetooth 5.0"
+						},
+						{
+							"name": "LoRa"
+						},
+						{
+							"name": "SIM-3G/4G"
+						}
+					]
+				},
+				{
+					"name": "Display",
+					"children": [
+						{
+							"name": "7\"Inch LCD"
+						},
+						{
+							"name": "4\" OLED"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Development",
+			"children": [
+				{
+					"name": "Programming language",
+					"children": [
+						{
+							"name": "Python"
+						},
+						{
+							"name": "DotNetC#"
+						},
+						{
+							"name": "Java"
+						},
+						{
+							"name": "c"
+						}
+					]
+				},
+				{
+					"name": "Type of Security key",
+					"children": [
+						{
+							"name": "SymmetricToken"
+						},
+						{
+							"name": "X509Certificate"
+						},
+						{
+							"name": "TPM based security"
+						}
+					]
+				},
+				{
+					"name": "Type of OTA",
+					"children": [
+						{
+							"name": "OTA thru Azure automatic device management"
+						},
+						{
+							"name": "OTA thru Opensource client (Mendor io)"
+						},
+						{
+							"name": "OTA -of IoT SDK device"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Containers",
+			"children": [
+				{
+					"name": "Sensor Modules",
+					"children": [
+						{
+							"name": "Sensor",
+							"children": [
+								{
+									"name": "ADXL345"
+								},
+								{
+									"name": "KIONX112 (High Sampling)"
+								},
+								{
+									"name": "Temp Sensor:DS18B20"
+								},
+								{
+									"name": "Sensor simulator"
+								}
+							]
+						},
+						{
+							"name": "Actuators",
+							"children": [
+								{
+									"name": "MagneticLock"
+								},
+								{
+									"name": "Relay"
+								}
+							]
+						},
+						{
+							"name": "Camera",
+							"children": [
+								{
+									"name": "OV7670(BlueTooth Camera)         :https://circuitdigest.com/microcontroller-projects/how-to-use-ov7670-camera-module-with-arduino"
+								},
+								{
+									"name": "SONY IMX178 (Ethernet Camera)"
+								},
+								{
+									"name": "RaspberryPi Camera"
+								},
+								{
+									"name": "Logitech USB  Camera"
+								}
+							]
+						},
+						{
+							"name": "Radar",
+							"children": [
+								{
+									"name": "PD300 : 80 ft"
+								},
+								{
+									"name": "XeThru 30ft"
+								}
+							]
+						},
+						{
+							"name": "Interface",
+							"children": [
+								{
+									"name": "Wired",
+									"children": [
+										{
+											"name": "Ethernet"
+										},
+										{
+											"name": "i2c"
+										},
+										{
+											"name": "GPIO"
+										},
+										{
+											"name": "OneWire"
+										},
+										{
+											"name": "SPI"
+										},
+										{
+											"name": "USB"
+										},
+										{
+											"name": "RibbonCable"
+										},
+										{
+											"name": "ModBus"
+										},
+										{
+											"name": "BacNet"
+										},
+										{
+											"name": "OPC"
+										}
+									]
+								},
+								{
+									"name": "Wireless",
+									"children": [
+										{
+											"name": "Wifi"
+										},
+										{
+											"name": "BLE"
+										},
+										{
+											"name": "LoRA"
+										},
+										{
+											"name": "NBIT"
+										},
+										{
+											"name": "Infrared"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Analytic Module",
+					"children": [
+						{
+							"name": "Thresholding",
+							"children": [
+								{
+									"name": "Upper & Lower Limit"
+								},
+								{
+									"name": "Rate of Change"
+								}
+							]
+						},
+						{
+							"name": "Image Analytics",
+							"children": [
+								{
+									"name": "ImageAnalytics"
+								},
+								{
+									"name": "ImageAnalytics -Intel OpenVino lib"
+								},
+								{
+									"name": "ImageAnalytics-Intel Movidius SDK"
+								},
+								{
+									"name": "ImageAnalytics-OpenVino + NeuralComputeStick"
+								},
+								{
+									"name": "Image Analytics + Model"
+								}
+							]
+						},
+						{
+							"name": "vibration Analytics",
+							"children": [
+								{
+									"name": "VibrationAnalytics-Intel Movidius SDK"
+								},
+								{
+									"name": "FFT"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Action Module",
+					"children": [
+						{
+							"name": "Logic Blocks",
+							"children": [
+								{
+									"name": "Message Action",
+									"children": [
+										{
+											"name": "Alert to Mobile User"
+										},
+										{
+											"name": "Alert to Service Engineer"
+										},
+										{
+											"name": "Alert to Inventry Manager"
+										},
+										{
+											"name": "Alert to Site Manager"
+										}
+									]
+								},
+								{
+									"name": "Action to Operate",
+									"children": [
+										{
+											"name": "Motor Cutoff"
+										},
+										{
+											"name": "Audio Alarm"
+										},
+										{
+											"name": "Operate Lock"
+										},
+										{
+											"name": "Boiler CutOff"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "IoT Platform Services",
+			"children": [
+				{
+					"name": "Data Storage",
+					"children": [
+						{
+							"name": "Hot Data"
+						},
+						{
+							"name": "Warm Data"
+						},
+						{
+							"name": "Blob"
+						}
+					]
+				},
+				{
+					"name": "Data Visualisation",
+					"children": [
+						{
+							"name": "Power BI"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "IoT Platform",
+			"children": [
+				{
+					"name": "AWS"
+				},
+				{
+					"name": "AZURE"
+				}
+			]
+		}
+	]
+}
